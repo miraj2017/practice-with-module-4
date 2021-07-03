@@ -1,0 +1,37 @@
+
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.part-1{
+
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+
+}
+.part-1 .span-1{
+    color:orange;
+}
+
+.part-1 a{
+    text-decoration: none;
+    background-image: linear-gradient(hsl(32, 94%, 32%),rgb(143, 120, 87));
+    color: white;
+    padding: 10px 40px;
+}
+
+.part-1-left{
+    width: 50%;
+    padding-left: 6%;
+}
+.part-1-right{
+    width: 50%;
+    padding-left: 8%;
+}
+.part-1-right img{
+    width: 60%;
+}
